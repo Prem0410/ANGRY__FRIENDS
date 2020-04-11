@@ -57,7 +57,7 @@ function draw(){
    // noStroks();
     textSize(35);
     fill("white")
-    //text("Score"+ score,width-300,50);
+    text("Score"+ score,width-300,50);
     Engine.update(engine);
 
     //strokeWeight(4);
